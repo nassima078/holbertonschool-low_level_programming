@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * Write a C program Programming is like building a multilingual puzzle
+ * main - Write a C program that prints
+ * Programme is like building a multilingual puzzle
+ * Return: value 0
  */
 int main(void)
 {
