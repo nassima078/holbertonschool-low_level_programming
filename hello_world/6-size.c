@@ -9,7 +9,7 @@ int main() {
     // sizeof evaluates the size of a variable
     printf("Size of char: %zu bytes\n", sizeof(charType));
     printf("Size of int: %zu bytes\n", sizeof(intType));
-    printf("Size of long int: %zu bytes\n", sizeof(longint));
+    printf("Size of long int: %zu bytes\n", sizeof(longintType));
     printf("Size of long long int: %zu byte\n", sizeof(longlongintType));
     printf("Size of float:%zu byte\n",sizeof(floatType));
     
