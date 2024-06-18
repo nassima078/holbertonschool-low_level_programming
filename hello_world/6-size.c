@@ -1,8 +1,8 @@
 #include<stdio.h>
 
 /**
- * main - print 'the size of the various size types on the computer'
- * return: 0
+ * main - Entry point
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
