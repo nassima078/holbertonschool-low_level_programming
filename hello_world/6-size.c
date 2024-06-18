@@ -3,7 +3,7 @@ int main() {
     char charType;
     int intType;
     long int longintType;
-    long long int;longlongintType;
+    long long int longlongintType;
     float floatType;
 
     // sizeof evaluates the size of a variable
