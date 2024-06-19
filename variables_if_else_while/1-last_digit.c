@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /*The variable n will store a different value every time you run this program
 *return = 0
