@@ -10,7 +10,7 @@ int main(void)
 	if (x < 9)
 	{
 		putchar(',');
-		putchar("\n");
+		putchar('\n');
 	}
 
 	return (0);
