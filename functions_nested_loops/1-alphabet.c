@@ -4,14 +4,14 @@
  * print_alphabet - prints the alphabet in lowercase, followed by a new line.
  *
  */
-int main(void)
+void print_alphabet(void)
 {
-	char alpha;
+	char ch;
 
-	alpha = 'a';
-	while (alpha <= 'z')
+	ch = 'a';
+	while (ch <= 'z')
 	{
-		_putchar(alpha);
+		_putchar(ch);
 		alpha++;
 	}
 	_putchar('\n');
