@@ -1,18 +1,24 @@
 #include "main.h"
 /**
- * print_rev - func that prints a string, in reverse, followed by a new line
- * @s: declaration of s and paramters for the function as in the quiz
- * Return: Always 0.
+ *print_rev - prints strin in reverse.
+ *@s: pointer to string.
+ *
+ *Return: void.
  */
 void print_rev(char *s)
 {
-	int c;
+	int length, last;
 
-	for (c = 0; s[c] != 0; c++)
+	length = 0;
+	while (s[length] != '\0')
 	{
+		length++;
 	}
-	for (c = c - 1; c >= 0; c--)
-		_putchar(s[c]);
-	_putchar('\n');
 
+	last = length - 1;
+	for (; last >= 0; last--)
+	{
+		_putchar(s[last]);
+	}
+	_putchar('\n');
 }
