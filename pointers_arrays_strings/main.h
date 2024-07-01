@@ -11,3 +11,4 @@ void puts_half(char *str);
 void puts2(char *str);
 void rev_string(char *s);
 char *_strcat(char *dest, char *src);
+char *_memset(char *s, char b, unsigned int n);
